@@ -10,7 +10,7 @@
  # @brief    Ascii art generator.                                             #
  #                                                                            #
  # @section  LICENSE                                                          #
- # Copyright (c) 2014, Alice                                                  #
+ # Copyright (c) 2014, alice                                                  #
  # All rights reserved.                                                       #
  #                                                                            #
  # Redistribution and use in source and binary forms, with or without         #
