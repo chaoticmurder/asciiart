@@ -1,43 +1,5 @@
 #!/usr/bin/env perl
 
- ###########################################################################//*!
- # @mainpage AsciiArt                                                         #
- # @file     asciiart.pl                                                      #
- # @author   alice <chaoticmurlock@gmail.com>                                 #
- # @version  1.0                                                              #
- # @date     25/11/2014                                                       #
- #                                                                            #
- # @brief    Ascii art generator.                                             #
- #                                                                            #
- # @section  LICENSE                                                          #
- # Copyright (c) 2014, alice                                                  #
- # All rights reserved.                                                       #
- #                                                                            #
- # Redistribution and use in source and binary forms, with or without         #
- # modification, are permitted provided that the following conditions         #
- # are met:                                                                   #
- # 1. Redistributions of source code must retain the above copyright          #
- #    notice, this list of conditions and the following disclaimer.           #
- # 2. Redistributions in binary form must reproduce the above copyright       #
- #    notice, this list of conditions and the following disclaimer in the     #
- #    documentation and/or other materials provided with the distribution.    #
- # 3. Neither the name of the University nor the names of its contributors    #
- #    may be used to endorse or promote products derived from this software   #
- #    without specific prior written permission.                              #
- #                                                                            #
- # THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND    #
- # ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE      #
- # IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE #
- # ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE   #
- # FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL #
- # DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS    #
- # OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)      #
- # HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT #
- # LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY  #
- # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF     #
- # SUCH DAMAGE.                                                               #
- #//##########################################################################*/
-
 use strict;
 use warnings;
 
@@ -987,15 +949,15 @@ if( $ARGV[0] =~ $bl ) {
     $prs{'g'}[7] = "$x20$x20$xdb$xdb$xdb$xdb$xdb$xdb$xdb$xdb$xdf$x20$x20";
     $prs{'g'}[8] = "$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20";
 
-$prs{'h'}[0]="$x20$x20$x20$xdc$xdb$x20$x20$x20$x20$xdb$xdc$x20$x20$x20$x20";
-$prs{'h'}[1]="$x20$x20$xdb$xdb$xdb$x20$x20$x20$x20$xdb$xdb$xdb$x20$x20$x20";
-$prs{'h'}[2]="$x20$x20$xdb$xdb$xdb$x20$x20$x20$x20$xdb$xdb$xdb$x20$x20$x20";
-$prs{'h'}[3]="$x20$xdc$xdb$xdb$xdb$xdc$xdc$xdc$xdc$xdb$xdb$xdb$xdc$xdc$x20";
-$prs{'h'}[4]="$xdf$xdf$xdb$xdb$xdb$xdf$xdf$xdf$xdf$xdb$xdb$xdb$xdf$x20$x20";
-$prs{'h'}[5]="$x20$x20$xdb$xdb$xdb$x20$x20$x20$x20$xdb$xdb$xdb$x20$x20$x20";
-$prs{'h'}[6]="$x20$x20$xdb$xdb$xdb$x20$x20$x20$x20$xdb$xdb$xdb$x20$x20$x20";
-$prs{'h'}[7]="$x20$x20$xdb$xdb$xdb$x20$x20$x20$x20$xdb$xdf$x20$x20$x20$x20";
-$prs{'h'}[8]="$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20";
+    $prs{'h'}[0]="$x20$x20$x20$xdc$xdb$x20$x20$x20$x20$xdb$xdc$x20$x20$x20$x20";
+    $prs{'h'}[1]="$x20$x20$xdb$xdb$xdb$x20$x20$x20$x20$xdb$xdb$xdb$x20$x20$x20";
+    $prs{'h'}[2]="$x20$x20$xdb$xdb$xdb$x20$x20$x20$x20$xdb$xdb$xdb$x20$x20$x20";
+    $prs{'h'}[3]="$x20$xdc$xdb$xdb$xdb$xdc$xdc$xdc$xdc$xdb$xdb$xdb$xdc$xdc$x20";
+    $prs{'h'}[4]="$xdf$xdf$xdb$xdb$xdb$xdf$xdf$xdf$xdf$xdb$xdb$xdb$xdf$x20$x20";
+    $prs{'h'}[5]="$x20$x20$xdb$xdb$xdb$x20$x20$x20$x20$xdb$xdb$xdb$x20$x20$x20";
+    $prs{'h'}[6]="$x20$x20$xdb$xdb$xdb$x20$x20$x20$x20$xdb$xdb$xdb$x20$x20$x20";
+    $prs{'h'}[7]="$x20$x20$xdb$xdb$xdb$x20$x20$x20$x20$xdb$xdf$x20$x20$x20$x20";
+    $prs{'h'}[8]="$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20";
 
     $prs{'i'}[0] = "$x20$xdc$xdb$x20$x20";
     $prs{'i'}[1] = "$xdb$xdb$xdb$x20$x20";
@@ -1037,15 +999,15 @@ $prs{'h'}[8]="$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20";
     $prs{'l'}[7] = "$xdb$xdb$xdb$xdb$xdb$xdc$xdc$xdb$xdb$x20";
     $prs{'l'}[8] = "$xdf$x20$x20$x20$x20$x20$x20$x20$x20$x20";
 
-$prs{'m'}[0]="   $xdc$xdc$xdc$xdc$xdb$xdb$xdb$xdc$xdc$xdc$xdc   ";
-$prs{'m'}[1]=" $xdc$xdb$xdb$xdf$xdf$xdf$xdb$xdb$xdb$xdf$xdf$xdf$xdb$xdb$xdc ";
-$prs{'m'}[2]=" $xdb$xdb$xdb   $xdb$xdb$xdb   $xdb$xdb$xdb ";
-$prs{'m'}[3]=" $xdb$xdb$xdb   $xdb$xdb$xdb   $xdb$xdb$xdb ";
-$prs{'m'}[4]=" $xdb$xdb$xdb   $xdb$xdb$xdb   $xdb$xdb$xdb ";
-$prs{'m'}[5]=" $xdb$xdb$xdb   $xdb$xdb$xdb   $xdb$xdb$xdb ";
-$prs{'m'}[6]=" $xdb$xdb$xdb   $xdb$xdb$xdb   $xdb$xdb$xdb ";
-$prs{'m'}[7]="  $xdf$xdb   $xdb$xdb$xdb   $xdb$xdf  ";
-$prs{'m'}[8]="                 ";
+    $prs{'m'}[0]="   $xdc$xdc$xdc$xdc$xdb$xdb$xdb$xdc$xdc$xdc$xdc   ";
+    $prs{'m'}[1]=" $xdc$xdb$xdb$xdf$xdf$xdf$xdb$xdb$xdb$xdf$xdf$xdf$xdb$xdb$xdc ";
+    $prs{'m'}[2]=" $xdb$xdb$xdb   $xdb$xdb$xdb   $xdb$xdb$xdb ";
+    $prs{'m'}[3]=" $xdb$xdb$xdb   $xdb$xdb$xdb   $xdb$xdb$xdb ";
+    $prs{'m'}[4]=" $xdb$xdb$xdb   $xdb$xdb$xdb   $xdb$xdb$xdb ";
+    $prs{'m'}[5]=" $xdb$xdb$xdb   $xdb$xdb$xdb   $xdb$xdb$xdb ";
+    $prs{'m'}[6]=" $xdb$xdb$xdb   $xdb$xdb$xdb   $xdb$xdb$xdb ";
+    $prs{'m'}[7]="  $xdf$xdb   $xdb$xdb$xdb   $xdb$xdf  ";
+    $prs{'m'}[8]="                 ";
 
     $prs{'n'}[0] = "$xdb$xdb$xdb$xdc$xdc$xdc$xdc$x20$x20$x20";
     $prs{'n'}[1] = "$xdb$xdb$xdb$xdf$xdf$xdf$xdb$xdb$xdc$x20";
@@ -1147,15 +1109,15 @@ $prs{'m'}[8]="                 ";
     $prs{'w'}[7] = "$x20$xdf$xdb$xdb$xdb$xdf$xdb$xdb$xdb$xdf$x20$x20";
     $prs{'w'}[8] = "$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20";
 
-$prs{'x'}[0]="$xdf$xdb$xdb$xdb$xdb$x20$x20$x20$x20$xde$xdb$xdb$xdb$xdb$xdf$x20";
-$prs{'x'}[1]="$x20$x20$xdb$xdb$xdb$xdd$x20$x20$x20$xdb$xdb$xdb$xdb$xdf$x20$x20";
-$prs{'x'}[2]="$x20$x20$x20$xdb$xdb$xdb$x20$x20$xde$xdb$xdb$xdb$x20$x20$x20$x20";
-$prs{'x'}[3]="$x20$x20$x20$xdf$xdb$xdb$xdb$xdc$xdb$xdb$xdb$xdf$x20$x20$x20$x20";
-$prs{'x'}[4]="$x20$x20$x20$xdb$xdb$xdb$xdb$xdf$xdb$xdb$xdc$x20$x20$x20$x20$x20";
-$prs{'x'}[5]="$x20$x20$xde$xdb$xdb$xdb$x20$x20$xdf$xdb$xdb$xdb$x20$x20$x20$x20";
-$prs{'x'}[6]="$x20$xdc$xdb$xdb$xdb$xdf$x20$x20$x20$x20$xdb$xdb$xdb$x20$x20$x20";
-$prs{'x'}[7]="$xdb$xdb$xdb$xdb$x20$x20$x20$x20$x20$x20$x20$xdb$xdb$xdb$xdc$x20";
-$prs{'x'}[8]="$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20";
+    $prs{'x'}[0]="$xdf$xdb$xdb$xdb$xdb$x20$x20$x20$x20$xde$xdb$xdb$xdb$xdb$xdf$x20";
+    $prs{'x'}[1]="$x20$x20$xdb$xdb$xdb$xdd$x20$x20$x20$xdb$xdb$xdb$xdb$xdf$x20$x20";
+    $prs{'x'}[2]="$x20$x20$x20$xdb$xdb$xdb$x20$x20$xde$xdb$xdb$xdb$x20$x20$x20$x20";
+    $prs{'x'}[3]="$x20$x20$x20$xdf$xdb$xdb$xdb$xdc$xdb$xdb$xdb$xdf$x20$x20$x20$x20";
+    $prs{'x'}[4]="$x20$x20$x20$xdb$xdb$xdb$xdb$xdf$xdb$xdb$xdc$x20$x20$x20$x20$x20";
+    $prs{'x'}[5]="$x20$x20$xde$xdb$xdb$xdb$x20$x20$xdf$xdb$xdb$xdb$x20$x20$x20$x20";
+    $prs{'x'}[6]="$x20$xdc$xdb$xdb$xdb$xdf$x20$x20$x20$x20$xdb$xdb$xdb$x20$x20$x20";
+    $prs{'x'}[7]="$xdb$xdb$xdb$xdb$x20$x20$x20$x20$x20$x20$x20$xdb$xdb$xdb$xdc$x20";
+    $prs{'x'}[8]="$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20$x20";
 
     $prs{'y'}[0] = "$xdc$xdb$xdb$x20$x20$x20$xdc$x20$x20$x20";
     $prs{'y'}[1] = "$xdb$xdb$xdb$x20$x20$x20$xdb$xdb$xdc$x20";
